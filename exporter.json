@@ -1,5 +1,5 @@
 {
-    "id": "io.supernova.scss",
+    "id": "io.supernova.scss.noprefix",
     "name": "SCSS",
     "description": "SCSS token and style exporter",
     "author": "Ivan Terpugov & Jiri Trecak",
