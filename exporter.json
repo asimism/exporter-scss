@@ -1,6 +1,6 @@
 {
     "id": "io.supernova.scss.noprefix",
-    "name": "SCSS-NOPREFIX",
+    "name": "SCSS-NOPREFIX-MIXIN",
     "description": "SCSS token and style exporter",
     "author": "Ivan Terpugov & Jiri Trecak",
     "organization": "Supernova",
