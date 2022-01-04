@@ -31,7 +31,7 @@ Rendered as:
 
 {[ for alias in findAliases(context.token, context.allTokens) ]}
 , {[ inject "rendered-description" context alias /]}
-.{[ inject "rendered-name" context alias /]}
+@mixin {[ inject "rendered-name" context alias /]}()
 {[/]} {
   {[ inject "rendered-value" context token /]}
 
