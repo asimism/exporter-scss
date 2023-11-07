@@ -20,8 +20,8 @@ Pulsar.registerFunction(
 
     // camelcase string from all segments
      sentence = sentence
-      .toLowerCase()
-      .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase())
+      .toLowerCase();
+      //.replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase())
     
     // only allow letters, digits, underscore and hyphen
     sentence = sentence.replace(/[^a-zA-Z0-9_-]/g, '_')
