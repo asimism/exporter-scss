@@ -31,7 +31,7 @@ Pulsar.registerFunction(
       sentence = '_' + sentence;
     }
 
-    return token.name; //sentence;
+    return token.name..toLowerCase(); //sentence;
   }
 );
 
